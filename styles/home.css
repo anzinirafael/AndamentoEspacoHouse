@@ -1,0 +1,51 @@
+/*Estilização da home do documento*/
+#home {
+    overflow: hidden;
+  }
+  
+  #home .container {
+    margin: 0;
+  }
+  
+  #home .image {
+    position: relative;
+  }
+  
+  #home .image::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      270deg,
+      hsla(var(--hue), 36%, 57%, 1),
+      hsla(var(--hue), 65%, 88%, 0.34)
+    );
+    position: absolute;
+    top: -16.8%;
+    left: 16.7%;
+    z-index: 0;
+  }
+  
+  #home .image img {
+    position: relative;
+    right: 2.93rem;
+  }
+  
+  #home .image img,
+  #home .image::before {
+    border-radius: 0.25rem;
+  }
+  
+  #home .text {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    text-align: center;
+  }
+  
+  #home .text h1 {
+    margin-bottom: 1rem;
+  }
+  
+  #home .text p {
+    margin-bottom: 2rem;
+  }

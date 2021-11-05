@@ -1,0 +1,46 @@
+#testimonials{
+    background: white;
+}
+
+#testimonials blockquote{
+    padding: 2rem;
+    box-shadow:  1px 1px 12px rgba(0,0,0,0.3);
+    border-radius:  0.25rem;
+}
+
+#testimonials blockquote p{
+    position: relative;
+    text-indent:  1.875rem;
+    margin-bottom: 1.5rem;
+    color: var(--title-color);
+}
+
+#testimonials blockquote p span{
+    font: 700 3rem serif;
+    position: absolute;
+    top: -0.5rem;
+    left: -1.875rem;
+    color:  var(--base-color);
+}
+
+#testimonials blockquote cite{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+}
+
+#testimonials blockquote cite .self{
+    width: 2rem;
+    height: 2rem;
+    border-radius:  2rem;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.swiper-slide{
+    height: auto;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--base-color);
+}

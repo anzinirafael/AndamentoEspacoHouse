@@ -1,0 +1,19 @@
+/*Reset de margem, preenchimento, e tipo de borda*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*Reset para remover de todas as lista não ordenadas do documento a estilização padrão*/
+  ul {
+    list-style: none;
+  }
+  /*Reset para remover de todas as tags do tipo "a" o sublinhado abaixo do link*/
+  a {
+    text-decoration: none;
+  }
+  /*Reset para padronizar todas imagens do documento com um largura de 100% e uma altura automatica*/
+  img {
+    width: 100%;
+    height: auto;
+  }
